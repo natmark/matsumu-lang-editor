@@ -16,6 +16,9 @@ GEM
     rack (2.0.5)
     rack-protection (2.0.1)
       rack
+    rack-test (1.0.0)
+      rack (>= 1.0, < 3)
+    rake (12.3.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -54,6 +57,8 @@ DEPENDENCIES
   coffee-script
   fxxk_gen
   haml
+  rack-test
+  rake
   rspec
   sass
   shotgun
