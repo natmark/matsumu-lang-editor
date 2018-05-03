@@ -1,0 +1,78 @@
+@charaset "UTF-8";
+
+h3 {
+	clear: both;
+}
+li {
+	line-height: 32px;
+}
+.notes {
+	margin-right: 40px;
+	color: #666;
+	font-size: 12px;
+	text-align: right;
+}
+#header {
+	float: left;
+	margin-bottom: 20px;
+	width: 550px;
+}
+#pr {
+	float: left;
+	width: 250px;
+}
+#converter {
+	width: 800px;
+	height: 320px;
+	margin: 15px 0px;
+	background-color: #CCC;
+	border: 5px solid gray;
+}
+#converter td {
+	text-align: center;
+	vertical-align: middle;
+}
+#converter .source {
+	width: 320px;
+	height: 280px;
+}
+#converter .button {
+	width: 80px;
+	height: 40px;
+}
+#setup {
+	width: 800px;
+	height: 60px;
+	padding: 0px;
+	background-color: #DDD;
+	text-align: center;
+}
+#setup .item {
+	float: left;
+	margin: 5px 0px;
+	padding: 0px;
+	width: 45px;
+}
+#setup .input {
+	float: left;
+	margin: 5px 0px;
+	padding: 0px;
+	width: 145px;
+}
+#setup input {
+	width: 145px;
+}
+#template {
+	width: 800px;
+	padding: 0px;
+}
+#template .item {
+	margin: 5px 12px;
+	color: #66F;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#explanation {
+	font-weight: bold;
+}

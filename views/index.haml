@@ -1,1 +1,27 @@
-%h1 This is the application root.
+!!!
+%html{:lang => "ja"}
+	%head
+		%meta{:charset => "utf-8"}
+		%title matsumu-lang code editor
+		%link{:rel => "stylesheet", :href => "/assets/css/style.css"}
+	%body
+		%h1 matsumu-lang code editor
+
+		%p 半角文字列をmatsumu-langで出力するためのソースを作成します。
+
+		%form{:action => "/editor", :method => "post"}
+			%table{:id => "converter"}
+				%tbody
+					%tr
+						%th Plain
+						%th
+						%th BrainFuck
+					%tr
+						%td
+							%textarea{:name => "plain", :class => "source"}
+								= @plain
+						%td
+							%input{:type => "submit", :class => "button", :value => "→", :onclick => "encode()"}
+						%td
+							%textarea{:name => "brain", :class => "source"}
+								= @brain
