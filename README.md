@@ -1,2 +1,2 @@
-# matsumu-lang-server
-matsumu-lang web converter
+# matsumu-lang-editor
+matsumu-lang code editor
