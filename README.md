@@ -1,6 +1,9 @@
 # matsumu-lang-editor
 matsumu-lang code editor
 
+### What is `matsumu-lang`
+- https://github.com/chikuwait/matsumu-lang
+
 ## Example
 ![Screenshot](https://github.com/natmark/matsumu-lang-editor/blob/master/screenshot.gif?raw=true)
 
