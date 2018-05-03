@@ -13,6 +13,7 @@ GEM
       temple (>= 0.8.0)
       tilt
     mustermann (1.0.2)
+    r-fxxk (0.4.0)
     rack (2.0.5)
     rack-protection (2.0.1)
       rack
@@ -57,6 +58,7 @@ DEPENDENCIES
   coffee-script
   fxxk_gen
   haml
+  r-fxxk
   rack-test
   rake
   rspec

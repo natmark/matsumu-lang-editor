@@ -15,8 +15,15 @@ class Server < Sinatra::Base
     end
 
     post '/editor' do
-        @plain = params['plain']
-        @brain = Matsumura.new.generate(@plain)
+        p params['input']
+        if params['input'] == "→" then
+            @plain = params['plain']
+            @brain = Matsumura.new.generate(@plain)
+        elsif params['input'] == "←" then
+            @brain = params['brain']
+            @plain = Matsumulang.new.fuck(@brain)
+        end
+
         haml :index
     end
 end

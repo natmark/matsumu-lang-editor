@@ -8,6 +8,7 @@ gem "coffee-script"
 gem "shotgun"
 gem "fxxk_gen"
 gem "rack-test"
+gem "r-fxxk"
 
 group :test do
       gem 'rspec'

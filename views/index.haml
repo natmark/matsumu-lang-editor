@@ -21,7 +21,8 @@
 							%textarea{:name => "plain", :class => "source"}
 								= @plain
 						%td
-							%input{:type => "submit", :class => "button", :value => "→", :onclick => "encode()"}
+							%input{:name => "input", :type => "submit", :class => "button", :value => "→"}
+							%input{:name => "input", :type => "submit", :class => "button", :value => "←"}
 						%td
 							%textarea{:name => "brain", :class => "source"}
 								= @brain
